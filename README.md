@@ -1,5 +1,6 @@
 # Vehicle detection and tracking module
-Vehicle detection and tracking module is implemented using Pretrained YOLOv4, DeepSort, and TensorFlow library. We take the output of YOLOv4 and feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in to create a highly accurate object tracker and then estimate the speed (in px/sec) using the Euclidean distances between the bounding boxes of each car.
+
+Vehicle detection and tracking module is implemented using Pretrained YOLOv4 on COCO dataset for object detection, DeepSort Model for object tracking, and TensorFlow library. We take the output of YOLO (You Only Look Once) and feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in to create a highly accurate object tracker and then estimate the speed (in px/sec) using the Euclidean distances between the bounding boxes of each car.
 
 ## Demo of Vehicle Tracking with Speed Estimation
 
@@ -21,6 +22,7 @@ conda activate yolov4-g
 We will use the pre-trained weights for our module which can be downloaded from below url.
  https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT
 
+These weights are trained using the **COCO** dataset.
 Copy and paste yolov4.weights from your downloads folder into the 'data' folder of this repository.
 
 ### Executing the module
