@@ -3,7 +3,7 @@ Vehicle tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a 
 
 ## Demo of Vehicle Tracking with Speed Estimation
 
-![demo](C:\Users\navpr\Desktop\Jupyter\NEW\Car tracking and speed estimation\Car-Tracking-and-speed-estimation\outputs\demo.gif)
+![demo](outputs/demo.gif)
 
 ## Running the Module
 Install all the dependencies and create conda environment to run the model.
